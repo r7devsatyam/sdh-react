@@ -244,7 +244,7 @@ background-position: center center, center center;
 background-size: 0px, cover;
 background-repeat: no-repeat, no-repeat;}
 .active-dark .fl-hero {
-background: url(../images/hero/freelancer.png), url(../images/shape/hero-shape.svg),#101010;
+/* background: url(../images/hero/freelancer.png), url(../images/shape/hero-shape.svg),#101010; */
 background-position: center center, center center;
 background-size: 0px, cover;
 background-repeat: no-repeat, no-repeat;}
