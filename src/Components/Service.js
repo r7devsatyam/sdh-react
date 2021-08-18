@@ -19,7 +19,7 @@ const Service = () => {
                                 <div className="s-card-icon"><img src="images/icons/branding.svg" alt="service" className="img-fluid" /></div>
                                 <h4>Logo & Branding Service</h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                <a href="javascript:void(0)">Learn More <i className="fas fa-chevron-right fa-icon"></i></a>
+                                <a href="dangerouslySetInnerHTML">Learn More <i className="fas fa-chevron-right fa-icon"></i></a>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.4s">
@@ -27,7 +27,7 @@ const Service = () => {
                                 <div className="s-card-icon"><img src="images/icons/development.svg" alt="service" className="img-fluid" /></div>
                                 <h4>Website Design & Development</h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                <a href="javascript:void(0)">Learn More <i className="fas fa-chevron-right fa-icon"></i></a>
+                                <a href="dangerouslySetInnerHTML">Learn More <i className="fas fa-chevron-right fa-icon"></i></a>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.6s">
@@ -35,7 +35,7 @@ const Service = () => {
                                 <div className="s-card-icon"><img src="images/icons/app.svg" alt="service" className="img-fluid" /></div>
                                 <h4>Mobile App Development</h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                <a href="javascript:void(0)">Learn More <i className="fas fa-chevron-right fa-icon"></i></a>
+                                <a href="dangerouslySetInnerHTML">Learn More <i className="fas fa-chevron-right fa-icon"></i></a>
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-6 mt30 shape-loc wow fadeInUp" data-wow-delay="0.8s">
@@ -43,7 +43,7 @@ const Service = () => {
                                 <div className="s-card-icon"><img src="images/icons/marketing.svg" alt="service" className="img-fluid" /></div>
                                 <h4>Digital Marketing Service</h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                <a href="javascript:void(0)">Learn More <i className="fas fa-chevron-right fa-icon"></i></a>
+                                <a href="dangerouslySetInnerHTML">Learn More <i className="fas fa-chevron-right fa-icon"></i></a>
                             </div>
                         </div>
                     </div>

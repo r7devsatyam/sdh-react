@@ -23,8 +23,8 @@ const Form = () => {
                                                     </div>
                                                     <div className="fieldsets"><textarea placeholder="Message" name="message"></textarea></div>
                                                     <div className="custom-control custom-checkbox">
-                                                        <input type="checkbox" className="custom-control-input" id="customCheck" name="example1" checked="defaultChecked"/>
-                                                            <label className="custom-control-label" htmlFor="customCheck">I agree to the <a href="javascript:void(0)">Terms &amp; Conditions</a> of Business Name.</label>
+                                                        <input type="checkbox" className="custom-control-input" id="customCheck" name="example1" defaultChecked="readOnly"/>
+                                                            <label className="custom-control-label" htmlFor="customCheck">I agree to the <a href="dangerouslySetInnerHTML">Terms &amp; Conditions</a> of Business Name.</label>
                                              </div>
                                                         <div className="fieldsets mt20"> <button type="submit" name="submit" className="lnk btn-main bg-btn">Submit <i className="fas fa-chevron-right fa-icon"></i><span className="circle"></span></button> </div>
                                                         <p className="trm"><i className="fas fa-lock"></i>We hate spam, and we respect your privacy.</p>
@@ -58,7 +58,7 @@ const Form = () => {
                                                     <div className="office-text">
                                                         <h4>New York</h4>
                                                         <p>603 FA Forest Avenue, New York, USA 10021</p>
-                                                        <a href="javascript:void(0)" target="blank" className="btn-outline">View on Map <i className="fas fa-chevron-right fa-icon"></i></a>
+                                                        <a href="dangerouslySetInnerHTML" target="blank" className="btn-outline">View on Map <i className="fas fa-chevron-right fa-icon"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -70,7 +70,7 @@ const Form = () => {
                                                     <div className="office-text">
                                                         <h4>Sydney</h4>
                                                         <p>2449 Columbia Boulevard, Sydney, 10021</p>
-                                                        <a href="javascript:void(0)" target="blank" className="btn-outline">View on Map <i className="fas fa-chevron-right fa-icon"></i></a>
+                                                        <a href="dangerouslySetInnerHTML" target="blank" className="btn-outline">View on Map <i className="fas fa-chevron-right fa-icon"></i></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -82,7 +82,7 @@ const Form = () => {
                                                     <div className="office-text">
                                                         <h4>Rome</h4>
                                                         <p>9988 Piazzetta Scalette Rubiani 99, Rome, 84090</p>
-                                                        <a href="javascript:void(0)" target="blank" className="btn-outline">View on Map <i className="fas fa-chevron-right fa-icon"></i></a>
+                                                        <a href="dangerouslySetInnerHTML" target="blank" className="btn-outline">View on Map <i className="fas fa-chevron-right fa-icon"></i></a>
                                                     </div>
                                                 </div>
                                             </div>

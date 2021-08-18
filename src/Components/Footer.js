@@ -53,11 +53,11 @@ const Footer = () => {
                                     <h5>Company</h5>
                                     <ul className="footer-address-list link-hover">
                                         <li><a href="get-quote.html">Contact</a></li>
-                                        <li><a href="javascript:void(0)">Customer's FAQ</a></li>
-                                        <li><a href="javascript:void(0)">Refund Policy</a></li>
-                                        <li><a href="javascript:void(0)">Privacy Policy</a></li>
-                                        <li><a href="javascript:void(0)">Terms and Conditions</a></li>
-                                        <li><a href="javascript:void(0)">License & Copyright</a></li>
+                                        <li><a href="dangerouslySetInnerHTML">Customer's FAQ</a></li>
+                                        <li><a href="dangerouslySetInnerHTML">Refund Policy</a></li>
+                                        <li><a href="dangerouslySetInnerHTML">Privacy Policy</a></li>
+                                        <li><a href="dangerouslySetInnerHTML">Terms and Conditions</a></li>
+                                        <li><a href="dangerouslySetInnerHTML">License & Copyright</a></li>
                                     </ul>
                                 </div>
                                 <div className="col-lg-4 col-sm-6 footer-blog-">
@@ -104,15 +104,15 @@ const Footer = () => {
                                                         <div className="row">
                                                             <div className="col-lg-12">
                                                                 <div className="footer-social-media-icons">
-                                                                    <a href="javascript:void(0)" target="blank"><i className="fab fa-facebook"></i></a>
-                                                                    <a href="javascript:void(0)" target="blank"><i className="fab fa-twitter"></i></a>
-                                                                    <a href="javascript:void(0)" target="blank"><i className="fab fa-instagram"></i></a>
-                                                                    <a href="javascript:void(0)" target="blank"><i className="fab fa-linkedin"></i></a>
-                                                                    <a href="javascript:void(0)" target="blank"><i className="fab fa-youtube"></i></a>
-                                                                    <a href="javascript:void(0)" target="blank"><i className="fab fa-pinterest-p"></i></a>
-                                                                    <a href="javascript:void(0)" target="blank"><i className="fab fa-vimeo-v"></i></a>
-                                                                    <a href="javascript:void(0)" target="blank"><i className="fab fa-dribbble"></i></a>
-                                                                    <a href="javascript:void(0)" target="blank"><i className="fab fa-behance"></i></a>
+                                                                    <a href="dangerouslySetInnerHTML" target="blank"><i className="fab fa-facebook"></i></a>
+                                                                    <a href="dangerouslySetInnerHTML" target="blank"><i className="fab fa-twitter"></i></a>
+                                                                    <a href="dangerouslySetInnerHTML" target="blank"><i className="fab fa-instagram"></i></a>
+                                                                    <a href="dangerouslySetInnerHTML" target="blank"><i className="fab fa-linkedin"></i></a>
+                                                                    <a href="dangerouslySetInnerHTML" target="blank"><i className="fab fa-youtube"></i></a>
+                                                                    <a href="dangerouslySetInnerHTML" target="blank"><i className="fab fa-pinterest-p"></i></a>
+                                                                    <a href="dangerouslySetInnerHTML" target="blank"><i className="fab fa-vimeo-v"></i></a>
+                                                                    <a href="dangerouslySetInnerHTML" target="blank"><i className="fab fa-dribbble"></i></a>
+                                                                    <a href="dangerouslySetInnerHTML" target="blank"><i className="fab fa-behance"></i></a>
                                                                 </div>
                                                                 <div className="footer-">
                                                                     <p>Copyright &copy; 2020 Niwax. All rights reserved. Template By <a href="https://themeforest.net/user/rajesh-doot/portfolio" target="blank">Rajesh Doot</a></p>
