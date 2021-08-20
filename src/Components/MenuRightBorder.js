@@ -4,7 +4,6 @@ const MenuRightBorder = () => {
 
     return (
             <>
-            <React.Fragment>
             < li className="contact-show" >
                 <a href="#" className="btn-round- trngl btn-br bg-btn"><i className="fas fa-phone-alt"></i></a>
                 <div className="contact-inquiry">
@@ -36,7 +35,6 @@ const MenuRightBorder = () => {
                         <li className="navm-"> <a className="toggle" href="#"><span></span></a></li>
                     </ul>
                 </div>
-                </React.Fragment>
 		</>
     )
 }

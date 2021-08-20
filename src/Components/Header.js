@@ -4,12 +4,12 @@ const Header = () => {
     return (
         <div>
             <header className="nav-bg-w main-header navfix fixed-top menu-white" >
-            <div className="container-fluid m-pad" />
+            <div className="container-fluid m-pad" >
             <div className="menu-header">
-                <div className="dsk-logo"><a className="nav-brand" href="index.html">
+                <div className="dsk-logo"><a className="nav-brand" href="#">
                     <img src="images/white-logo.png" alt="Logo" className="mega-white-logo" />
                     <img src="images/logo.png" alt="Logo" className="mega-darks-logo" />
-                </a>
+                    </a>
                 </div>
                 <div className="custom-nav" role="navigation" />
                 <ul className="nav-list">
@@ -23,15 +23,15 @@ const Header = () => {
                                             <div className="sub-menu-column">
                                                 <div className="menuheading">Multi-Page Demo</div>
                                                 <ul>
-                                                    <li><a href="index.html">Homepage</a></li>
-                                                    <li><a href="digital-agency.html">Digital Agency</a></li>
-                                                    <li><a href="digital-agency-dark.html">Digital Agency Dark</a></li>
-                                                    <li><a href="web-design-agency.html">Web Design Agency</a></li>
-                                                    <li><a href="web-design-agency-dark.html">Web Design Agency Dark</a></li>
-                                                    <li><a href="digital-marketing.html">Digital Marketing</a></li>
-                                                    <li><a href="digital-marketing-dark.html">Digital Marketing Dark</a></li>
-                                                    <li><a href="lead-generation.html">Lead Generation Agency</a></li>
-                                                    <li><a href="lead-generation-dark.html">Lead Generation Agency Dark</a></li>
+                                                    <li><a href="#">Homepage</a></li>
+                                                    <li><a href="#">Digital Agency</a></li>
+                                                    <li><a href="#">Digital Agency Dark</a></li>
+                                                    <li><a href="#">Web Design Agency</a></li>
+                                                    <li><a href="#">Web Design Agency Dark</a></li>
+                                                    <li><a href="#">Digital Marketing</a></li>
+                                                    <li><a href="#">Digital Marketing Dark</a></li>
+                                                    <li><a href="#">Lead Generation Agency</a></li>
+                                                    <li><a href="#">Lead Generation Agency Dark</a></li>
                                                 </ul>
                                             </div>
                                             <div className="sub-menu-column">
@@ -210,11 +210,12 @@ const Header = () => {
                     </li>
                     <li>
                         <a href="#" className="menu-links right-bddr">&nbsp;</a>
-                        </li>
-                        </ul>
-                        </div>
-                        </header>
-                        </div>
+                    </li>
+                </ul>
+            </div>
+            </div>
+            </header>
+        </div>
      )                  
 }
 
