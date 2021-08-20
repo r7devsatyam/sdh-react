@@ -22,7 +22,7 @@ const App = () => {
     return (
         <div>
             <Preloader ref={renderRef} />
-            <Header  ref={renderRef} />
+            <Header />
             <MenuRightBorder />
             <MobileMenu/>
             <MobileContact/>
