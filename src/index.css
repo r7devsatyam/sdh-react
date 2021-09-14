@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Preloader*/
+.onloadpage{
+    @apply fixed z-auto inset-0 block bg-gray-50;
+}
+.pre-content{
+    @apply top-2/4 inset-x-0 text-center transform-gpu
+}
+.logo-pre{
+    @apply bg-red-100 rounded-lg w-20 h-20 shadow-xl animate-pulse mx-auto mt-0 mb-6 flex items-center p-2;
+}
+.pre-text{
+    @apply text-sm leading-7 font-semibold w-2/6 mx-0 my-auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*Header*/
+.nav-bg-w{
+    @apply bg-white ;
 }
+.main-header{
+    @apply pl-4 pr-4 h-20 z-50 border-b-2;
+}
+.navfix{
+
+}
+.fixed-top{
+    @apply fixed top-0 right-0 left-0;
+}
+.menu-white{
+
+}
+.container-fluid{
+    @apply w-full px-4 mx-auto;
+}
+.menu-header{
+    @apply flex items-center justify-between w-full;
+}
+.dsk-logo{
+   @apply float-left leading-normal;
+}
+.nav-brand{
+
+}
+.custom-nav{
+    @apply float-right;
+}
+.nav-list{
+    @apply list-none;
+}
+.custom-nav .nav-list li a.menu-links {
+    @apply text-base text-black font-sans font-medium px-0 py-3 leading-normal relative overflow-hidden ;
+}
+.header-icon-nav a{
+    @apply bg-gray-300 p-2 m-1 rounded-lg text-black;
+}
+.sticky .dsk-logo{@apply leading-10;}
+.sticky .custom-nav .nav-list li a.menu-links{@apply leading-10;}
+.main-header.sticky{@apply h-16;}
+.top-header{@apply z-50;}
+.navbar .mobile-menu{@apply hidden;}
+.navbar .mobilemenu{@apply text-black -top-1 relative;}
+.navbar .mobilemenu i{@apply text-lg;}
+.mob-nav{@apply flex;}
+.mob-nav li{ @apply relative;}
+.ml8{@apply ml-2;}
+.animate{@apply animate-pulse;}
+.top-header .dropdown-toggle::after{@apply inline-block ml-1 align-baseline rounded-t-none border-0 rounded-full;}
+.dropdown-item:focus, .dropdown-item:hover {@apply text-black no-underline bg-white outline-none;}
+.dropdown-item.active, .dropdown-item:active {@apply text-black no-underline bg-white outline-none;}
+.dropdown-menu {@apply border-solid border-0 border-gray-300;}
+header .dropdown-menu{    @apply absolute top-full left-0 z-auto hidden float-left min-w-max text-left list-none
+bg-white bg-clip-padding border-0 border-t-0 border-blue-500 rounded-t-none rounded-b-lg shadow-lg;}
